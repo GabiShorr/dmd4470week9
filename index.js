@@ -15,7 +15,7 @@ const config = {
     secret: process.env.AUTH0_SECRET,
     baseURL: process.env.SITE_URL || 'http://localhost:3000',
     clientID: process.env.AUTH0_CLIENT_ID,
-    issuerBaseURL: 'https://bdaley.auth0.com'
+    issuerBaseURL: 'https://dev-qhv0iub6ky7jytvy.us.auth0.com'
 };
 
 // auth router attaches /login, /logout, and /callback routes to the baseURL
